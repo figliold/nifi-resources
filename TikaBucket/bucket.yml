@@ -1,6 +1,6 @@
 flows:
-  35238808-59a6-4e9d-ac7f-0521b9515c19: {ver: 1, file: TikaFlow.snapshot, comments: TikaFlow
-      version comments, author: anonymous, created: 1567720078453, flowName: TikaFlow,
+  35238808-59a6-4e9d-ac7f-0521b9515c19: {ver: 2, file: TikaFlow.snapshot, comments: Added
+      AttributeToJson processor, author: anonymous, created: 1567720384432, flowName: TikaFlow,
     flowDesc: TikaFlow Description}
 layoutVer: 1
 bucketId: 95971172-d5c9-4d85-b67b-3b2cb2acbf8f
