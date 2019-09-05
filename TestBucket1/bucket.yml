@@ -1,4 +1,7 @@
 flows:
+  f72f9330-71c2-40c1-9280-3bde5a6fcfc9: {ver: 1, file: TestProcessGroup2.snapshot,
+    comments: TestProcessGroup2 version comments, author: anonymous, created: 1567719401088,
+    flowName: TestProcessGroup2, flowDesc: TestProcessGroup2 description}
   0901bfb6-2865-49f2-a6f1-63cc6a6b724d: {ver: 1, file: TestFlow1.snapshot, comments: TestFlow1
       version comments, author: anonymous, created: 1567718889215, flowName: TestFlow1,
     flowDesc: TestFlow1 description}
