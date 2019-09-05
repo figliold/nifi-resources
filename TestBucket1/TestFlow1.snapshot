@@ -1,0 +1,126 @@
+{
+  "header" : {
+    "dataModelVersion" : "3"
+  },
+  "content" : {
+    "flowSnapshot" : {
+      "flowContents" : {
+        "comments" : "",
+        "componentType" : "PROCESS_GROUP",
+        "connections" : [ ],
+        "controllerServices" : [ ],
+        "funnels" : [ ],
+        "identifier" : "7c327f75-e756-38f8-9158-14add3f73bdb",
+        "inputPorts" : [ ],
+        "labels" : [ ],
+        "name" : "TestProcessGroup",
+        "outputPorts" : [ ],
+        "position" : {
+          "x" : 696.0,
+          "y" : 236.0
+        },
+        "processGroups" : [ ],
+        "processors" : [ {
+          "autoTerminatedRelationships" : [ "success" ],
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-standard-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.9.2"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "7c327f75-e756-38f8-9158-14add3f73bdb",
+          "identifier" : "203b5a80-a15f-3458-b136-9dd04e9f361e",
+          "name" : "ListenHTTP",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 665.0,
+            "y" : 167.0
+          },
+          "properties" : {
+            "Base Path" : "contentListener",
+            "multipart-read-buffer-size" : "512 KB",
+            "multipart-request-max-size" : "1 MB",
+            "Max Unconfirmed Flowfile Time" : "60 secs",
+            "Return Code" : "200",
+            "Listening Port" : "9999",
+            "Authorized DN Pattern" : ".*"
+          },
+          "propertyDescriptors" : {
+            "Base Path" : {
+              "displayName" : "Base Path",
+              "identifiesControllerService" : false,
+              "name" : "Base Path",
+              "sensitive" : false
+            },
+            "multipart-read-buffer-size" : {
+              "displayName" : "Multipart Read Buffer Size",
+              "identifiesControllerService" : false,
+              "name" : "multipart-read-buffer-size",
+              "sensitive" : false
+            },
+            "SSL Context Service" : {
+              "displayName" : "SSL Context Service",
+              "identifiesControllerService" : true,
+              "name" : "SSL Context Service",
+              "sensitive" : false
+            },
+            "multipart-request-max-size" : {
+              "displayName" : "Multipart Request Max Size",
+              "identifiesControllerService" : false,
+              "name" : "multipart-request-max-size",
+              "sensitive" : false
+            },
+            "Max Unconfirmed Flowfile Time" : {
+              "displayName" : "Max Unconfirmed Flowfile Time",
+              "identifiesControllerService" : false,
+              "name" : "Max Unconfirmed Flowfile Time",
+              "sensitive" : false
+            },
+            "Max Data to Receive per Second" : {
+              "displayName" : "Max Data to Receive per Second",
+              "identifiesControllerService" : false,
+              "name" : "Max Data to Receive per Second",
+              "sensitive" : false
+            },
+            "Return Code" : {
+              "displayName" : "Return Code",
+              "identifiesControllerService" : false,
+              "name" : "Return Code",
+              "sensitive" : false
+            },
+            "Listening Port" : {
+              "displayName" : "Listening Port",
+              "identifiesControllerService" : false,
+              "name" : "Listening Port",
+              "sensitive" : false
+            },
+            "HTTP Headers to receive as Attributes (Regex)" : {
+              "displayName" : "HTTP Headers to receive as Attributes (Regex)",
+              "identifiesControllerService" : false,
+              "name" : "HTTP Headers to receive as Attributes (Regex)",
+              "sensitive" : false
+            },
+            "Authorized DN Pattern" : {
+              "displayName" : "Authorized DN Pattern",
+              "identifiesControllerService" : false,
+              "name" : "Authorized DN Pattern",
+              "sensitive" : false
+            }
+          },
+          "runDurationMillis" : 0,
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.standard.ListenHTTP",
+          "yieldDuration" : "1 sec"
+        } ],
+        "remoteProcessGroups" : [ ],
+        "variables" : { }
+      }
+    }
+  }
+}
